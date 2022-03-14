@@ -1,0 +1,1 @@
+$(".search-block").css("display", "none")

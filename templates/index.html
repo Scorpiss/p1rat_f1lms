@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="pagination-block">
+    <ul class="pagination">
+        <li class="page-item">
+        <a class="page-link" onclick="prev_page()" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+        </a>
+        </li>
+
+        <li class="page-item" id="current-page"></li>
+
+        <li class="page-item">
+        <a class="page-link" onclick="next_page()" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+        </a>
+        </li>
+    </ul>
+</div>
+<p style="font-size: 12px;text-align: center;color: gray" id="max-page"></p>
+<div class="film-list" id="main-list">
+</div>
+{% endblock %}
+
