@@ -19,7 +19,7 @@
   ```
   Install the required packages:
   ```
-  pip install -r requirements
+  pip install -r requirements.txt
   ```
   Start app:
   ```
