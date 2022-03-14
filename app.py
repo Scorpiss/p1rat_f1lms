@@ -1,6 +1,5 @@
 from flask import Flask, json, render_template, redirect, request, jsonify
 from db import DataBase
-import requests
 import re
 
 
