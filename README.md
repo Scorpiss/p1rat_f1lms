@@ -15,7 +15,7 @@
   ```
   Activate virtual environment:
   ```
-  env/bin/activate
+  source env/bin/activate
   ```
   Install the required packages:
   ```
